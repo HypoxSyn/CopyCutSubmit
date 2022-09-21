@@ -1,0 +1,20 @@
+﻿<Window x:Class="Convert_String_to_Number.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Convert_String_to_Number"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid >
+        <StackPanel Orientation="Vertical">
+                <TextBlock Name="displayText" HorizontalAlignment="Center" FontSize="32" >Here the info will load</TextBlock>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBox Name="typeText" HorizontalAlignment="Center" Height="40" Width="200" FontSize="29" Background="AliceBlue"></TextBox>
+                <Button Click="Button_Click" Width="100" Height="40">Submit</Button>
+                <Button Click="Button_Copy"  Width="100" Height="40">Copy</Button>
+                <Button Click="Button_Cut"   Width="100" Height="40">Cut</Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
